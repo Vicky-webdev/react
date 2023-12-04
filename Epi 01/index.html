@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React Learning Episode 1</title>
+</head>
+
+<body>
+
+    <!--  
+    <div>
+        <h2> Hello World !</h2>
+        <p>React Learning </p>
+    </div> -->
+
+    <div id="root"></div>
+
+    <!-- Using Javascript -->
+
+    <script>
+
+        // create a element with js 
+
+        // --------------------------------------//
+
+        // Create a new element
+
+        const divElement = document.createElement("h3");
+
+        // find the parent element
+
+        const parent1 = document.getElementById("root");
+
+        // Append the new element inside the root element
+
+        parent1.appendChild(divElement);
+
+        // Add Text content to the new element using innerHTML syntax
+
+        divElement.innerHTML = "Hello Javascript";
+
+        // set attributes on the new element
+
+        divElement.setAttribute("id", "Child");
+
+
+        // Set some attributes (optional)
+        divElement.id = "myNewid"; // it replaaces the existing Child id attribute
+        divElement.className = "custom-class";
+
+
+        const parent = document.getElementById("root");
+        parent.appendChild(document.createElement("div")).innerHTML = "Hello World!";
+
+
+
+    </script>
+
+</body>
+
+</html>
