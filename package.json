@@ -1,0 +1,33 @@
+{
+  "name": "vanakkam-react",
+  "version": "1.0.0",
+  "description": "React Learning",
+  "scripts": {
+    "dev": "parcel ./Epi02/index.html",
+    "build": "parcel ./Epi02/index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vicky-webdev/react.git"
+  },
+  "keywords": [
+    "react",
+    "beginner",
+    "react"
+  ],
+  "author": "Vicky",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vicky-webdev/react/issues"
+  },
+  "homepage": "https://github.com/Vicky-webdev/react#readme",
+  "devDependencies": {
+    "parcel": "^2.10.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
