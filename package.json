@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "React Learning",
   "scripts": {
-    "dev": "parcel ./Epi02/index.html",
+    "dev": "parcel ./Epi03/index.html",
     "build": "parcel ./Epi02/index.html",
     "test": "jest"
   },
