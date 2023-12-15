@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "React Learning",
   "scripts": {
-    "dev": "parcel ./Epi03/index.html",
-    "build": "parcel ./Epi02/index.html",
+    "dev": "parcel ./Epi04/Code/index.html",
+    "build": "parcel ./Epi04/Code/index.html",
     "test": "jest"
   },
   "repository": {
